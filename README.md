@@ -2,13 +2,13 @@
 
 ### Comparison of Naïve Bayes and Support Vector Machine Algorithms
 
-## 📌 Overview
+## Overview
 
 This project is an undergraduate thesis that performs **sentiment analysis** on Twitter (X) data related to PT Esteh Indonesia Makmur, classifying tweets as **positive** or **negative**. The study compares two machine learning algorithms — **Naïve Bayes** and **Support Vector Machine** — with and without hyperparameter tuning, to determine which performs better on this dataset.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 sentiment-analysis/
@@ -23,7 +23,7 @@ sentiment-analysis/
 
 ---
 
-## 🗂️ Dataset
+## Dataset
 
 - **Source:** Twitter (X) — scraped using the `snscrape` library
 - **Keywords:** "es teh indonesia" and "somasi"
@@ -33,7 +33,7 @@ sentiment-analysis/
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### 1. Data Collection
 
@@ -72,7 +72,7 @@ sentiment-analysis/
 
 ---
 
-## 📊 Results
+## Results
 
 | Model              | Accuracy   | Precision  | Recall | F1-Score | AUC-ROC  | AUC-PR |
 | ------------------ | ---------- | ---------- | ------ | -------- | -------- | ------ |
@@ -81,11 +81,11 @@ sentiment-analysis/
 | SVM Without Tuning | **90.39%** | **78.91%** | 59.17% | 62.51%   | **0.85** | 0.42   |
 | SVM With Tuning    | **90.39%** | **82.86%** | 57.03% | 59.68%   | 0.79     | 0.37   |
 
-> ✅ **Conclusion:** SVM without hyperparameter tuning performs best overall, achieving the highest accuracy (90.39%) and AUC-ROC (0.85).
+> **Conclusion:** SVM without hyperparameter tuning performs best overall, achieving the highest accuracy (90.39%) and AUC-ROC (0.85).
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 This project is designed to run on **Google Colab**.
 
@@ -104,7 +104,7 @@ This project is designed to run on **Google Colab**.
 
 ---
 
-## 🛠️ Libraries & Tools
+## Libraries & Tools
 
 | Library                 | Purpose                  |
 | ----------------------- | ------------------------ |
