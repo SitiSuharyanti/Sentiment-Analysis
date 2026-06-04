@@ -25,10 +25,10 @@ The dataset files are available in the `Dataset/Scraping/` folder.
  
 | Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC | AUC-PR |
 | --- | --- | --- | --- | --- | --- | --- |
-| NB Without Tuning | 80.26% | 62.80% | 73.92% | 64.83% | 0.80 | 0.45 |
-| NB With Tuning | 85.45% | 65.37% | 70.38% | 67.26% | 0.77 | 0.37 |
-| SVM Without Tuning | 90.39% | 78.91% | 59.17% | 62.51% | 0.85 | 0.42 |
-| SVM With Tuning | 90.39% | 82.86% | 57.03% | 59.68% | 0.79 | 0.37 |
+| NB Without Tuning | 80.26% | 62.80% | **73.92%** | 64.83% | 0.80 | **0.45** |
+| NB With Tuning | 85.45% | 65.37% | 70.38% | **67.26%** | 0.77 | 0.37 |
+| SVM Without Tuning | **90.39%** | 78.91% | 59.17% | 62.51% | **0.85** | 0.42 |
+| SVM With Tuning | 90.39% | **82.86%** | 57.03% | 59.68% | 0.79 | 0.37 |
  
 Overall, SVM without hyperparameter tuning performed best across the evaluated metrics.
 
